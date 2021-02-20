@@ -561,6 +561,202 @@ a:hover {
     color: #32AD79 !important;
 }*/
 
+/*--------------------------------
+            Header CSS
+---------------------------------*/
+/* Header bar area Start */
+.header-bar-area {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    transition: 0.3s;
+    background-color: #fff;
+    padding: 12px 0;
+
+
+}
+
+/*sticky START CSS*/
+.header-bar-area.sticky {
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.29);
+
+}
+
+
+.header_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header_logo {
+    width: 26%;
+}
+
+.logo img {
+    max-width: 130px;
+}
+
+.header_menu {
+    width: 74%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.header_btn {
+    margin-left: 15px;
+}
+
+#mobile_menu {
+    background: #165DA6;
+    padding: 7px 10px;
+}
+
+#mobile_menu a {
+    display: block;
+}
+
+#mobile_menu a span {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #fff;
+    margin: 5px auto;
+}
+
+#mobile_menu a span:nth-child(2) {
+    width: 22px;
+}
+
+.mm-panel,
+.mm-panels {
+    background: #26333A !important;
+}
+
+.mm-menu .mm-navbar a,
+.mm-menu .mm-navbar>* {
+    color: #fff !important;
+}
+
+.mm-menu a,
+.mm-menu a:active,
+.mm-menu a:hover,
+.mm-menu a:link,
+.mm-menu a:visited {
+    color: #fff !important;
+}
+
+.mm-listitem::after,
+.mm-listitem .mm-btn_next::before {
+    /*display: none !important;*/
+    left: 0;
+}
+
+.mm-listitem::after {
+    left: 0 !important;
+}
+
+.mm-listitem>a,
+.mm-listitem>span {
+    padding: 20px 15px !important;
+}
+
+.mm-menu .mm-listview .mm-btn_next::after,
+.mm-menu .mm-btn::after,
+.mm-menu .mm-btn::before {
+    border-color: #fff !important;
+}
+
+
 /*---------------------------------
         Hero CSS
 --------------------------------*/
+/*---------------------------------
+        Hero CSS
+--------------------------------*/
+/*---------------------------------
+        Tab  CSS
+--------------------------------*/
+
+
+.tab-menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.tab-menu ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+    background-color: #b4cbc4;
+    padding: 7px 25px;
+    border-radius: 4px;
+}
+.tab-menu ul li a.active-a{
+    color: #000;
+}
+.tab{
+    display: none;
+}
+
+.tab-active{
+    display: block;
+}
+/*---------------------------------
+        Footer CSS
+--------------------------------*/
+
+.form-group {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  padding: 0;
+  height: initial;
+  width: initial;
+  margin-bottom: 0;
+  display: none;
+  cursor: pointer;
+}
+
+.form-group label {
+  position: relative;
+  cursor: pointer;
+}
+
+.form-group label:before {
+  content:'';
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: 2px solid #0079bf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form-group input:checked + label:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 9px;
+  width: 6px;
+  height: 14px;
+  border: solid #0079bf;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+
+
+

@@ -18,119 +18,31 @@
             sticky.addClass('sticky');
         }
     });
-    /*=========================
-      OwlCarousel START
-    ===========================*/
+    //Custom tab
+    $('.tab-a').click(function() {
+        $(".tab").removeClass('tab-active');
+        $(".tab[data-id='" + $(this).attr('data-id') + "']").addClass("tab-active");
+        $(".tab-a").removeClass('active-a');
+        $(this).parent().find(".tab-a").addClass('active-a');
+    });
+
+    /* ----------------------------------------
+           Responsive Mega Menu
+     ------------------------------------------*/
+
+    function startsMmenu() {
+        $('#menu').mmenu();
+    }
     $(document).ready(function() {
-        if ($(window).width() < 768) {
-            startCarousel();
-        } else {
-            $('.owl-carousel').addClass('off');
+        if ($(window).width() < 992) {
+            startsMmenu();
         }
     });
 
     $(window).resize(function() {
-        if ($(window).width() < 768) {
-            startCarousel();
-        } else {
-            stopCarousel();
+        if ($(window).width() < 992) {
+            startsMmenu();
         }
-    });
-
-    function startCarousel() {
-        $(".testimonial_slider").owlCarousel({
-            items: 1,
-            nav: false,
-            dot: true,
-            autoplayTimeout: 2000,
-            loop: false,
-            margin: 4,
-            smartSpeed: 450,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false,
-                    dot: true
-
-                },
-                767: {
-                    items: 1,
-                    nav: false,
-                    dot: true
-
-                },
-                1000: {
-                    items: 1,
-
-                }
-            }
-        });
-         $(".press_slider").owlCarousel({
-            items: 1,
-            nav: false,
-            dot: true,
-            autoplayTimeout: 2000,
-            loop: false,
-            margin: 4,
-            smartSpeed: 450,
-            responsiveClass: true,
-            responsive: {
-                0: {
-                    items: 1,
-                    nav: false,
-                    dot: true
-
-                },
-                767: {
-                    items: 1,
-                    nav: false,
-                    dot: true
-
-                },
-                1000: {
-                    items: 1,
-
-                }
-            }
-        });
-    }
-
-    function stopCarousel() {
-        var owl = $('.owl-carousel');
-        owl.trigger('destroy.owl.carousel');
-        owl.addClass('off');
-    }
-
-    $(".showcase_slider").owlCarousel({
-        items: 3,
-        nav: true,
-        dot: false,
-        autoplayTimeout: 2000,
-        loop: false,
-        navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
-        margin: 4,
-        smartSpeed: 450,
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-                nav: false,
-                dot: true
-
-            },
-            
-            768: {
-                items: 2,
-
-            },
-            1000: {
-                items: 3,
-
-            }
-        }
-
-
     });
 
 

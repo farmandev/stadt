@@ -10,7 +10,7 @@
     <title>Title here</title>
     <!--====== Google Fonts ======-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
     <!--====== Bootstrap css ======-->
@@ -19,9 +19,10 @@
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <!--====== Icon css ======-->
     <link href="assets/css/all.min.css" rel="stylesheet">
-    <link href="assets/css/ionicons.min.css" rel="stylesheet">
+    <link href="assets/css/line-awesome.min.css" rel="stylesheet">
     <!--====== Owl carousel css ======-->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/calendar.css" rel="stylesheet">
     <!--====== Nice-select css ======-->
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <!--====== Style css ======-->
@@ -58,88 +59,399 @@
     <!-- Preloader End -->
     <div class="page_wrapper">
         <!-- Header bar area Start -->
-        <div class="header-bar-area">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-lg-3">
-                        <a class="navbar-brand" href="#">
-                            <img src="assets/img/logo.png" alt="Logo">
-                        </a>
-                    </div>
-                    <div class="col-lg-9 text-right">
-                        <ul id="mainNav" class="main-menu pb-2 pb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#features_wrap">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#testimonial_wrap">TESTIMONIALS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#stat_wrap">KEY STATISTICS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#preass_wrap">PRESS</a></li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#partner_wrap">PARTNERS & INVESTORS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#team_wrap">TEAM</a></li>
-                            <li class="nav-item">
-                                <a class="nav-link js-scroll-trigger" href="#contact_wrap"> CONTACT US </a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn v1">Download</a>
-                            </li>
-                        </ul>
-                        <div class="hamburger-menu">
-                            <span class="line-top"></span>
-                            <span class="line-center"></span>
-                            <span class="line-bottom"></span>
+       <header class="header-bar-area">
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="header_wrap">
+                        <div class="header_logo">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo.png" alt="Image"></a>
+                            </div>
+                        </div>
+                        <div class="header_menu">
+                            <div class="main_menu_wrap">
+                                <nav id="menu" class="main_menu">
+                                    <ul>
+                                        <li><a href="#">Company</a>
+                                        </li>
+                                        <li><a class="has_child" href="#">Solutions</a>
+                                            <ul class="dropdown">
+                                                <li class="has-Child">
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/brain.png" alt="Image">
+                                                        Digital Commerce</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Marketplace Solutions</a></li>
+                                                        <li><a href="#">On-demand & Delivery Apps</a></li>
+                                                        <li><a href="#">B2B e-Commerce Solutions</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/geometry.png" alt="Image">
+                                                        Fintech</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Stock Research</a></li>
+                                                        <li><a href="#">stock trading</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/real-state.png" alt="Image">
+                                                        Enterprise Solutions</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Logistics & Fleet Management</a></li>
+                                                        <li><a href="#">Field Service Automation</a></li>
+                                                        <li><a href="#">Expense Management Solutions</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has_child" href="#">Services</a>
+                                            <ul class="dropdown">
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/brain.png" alt="Image">
+                                                        Digital</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Digital Marketplace</a></li>
+                                                        <li><a href="#">Software Development Services</a></li>
+                                                        <li><a href="#">Hire Dedicated Developer</a></li>
+                                                        <li><a href="#">eCommerce Platform</a></li>
+                                                        <li><a href="#">Website Development</a></li>
+                                                        <li><a href="#">Mobile App Development</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/geometry.png" alt="Image">
+                                                        IT Consulting</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Agile Product Development</a></li>
+                                                        <li><a href="#">Product Prototyping</a></li>
+                                                        <li><a href="#">Integrated Services</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        <img class="list_header_img" src="assets/img/real-state.png" alt="Image">
+                                                        Cloud</a>
+                                                    <ul class="has_dropdown">
+                                                        <li><a href="#">Cloud infrustructure</a></li>
+                                                        <li><a href="#">Application & Infrustructure Optimization</a></li>
+                                                        <li><a href="#">DevOps Implementation Team</a></li>
+                                                        <li><a href="#">AI/Machine Learning</a></li>
+                                                        <li><a href="#">Enterprise Systems</a></li>
+                                                        <li><a href="#">AR/VR Development</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="has_child" href="#">Resources</a>
+                                            <ul class="dropdown v2">
+                                                <li>
+                                                    <a class="maf_list" href="#">
+                                                        <p>Case Studies</p>
+                                                        <span>Work that illustrate amazing experiences we design & deliver</span>
+                                                    </a>
+                                                    <a class="maf_list" href="#">
+                                                        <p>White Paper</p>
+                                                        <span>Work that illustrate amazing experiences we design & deliver</span>
+                                                    </a>
+                                                    <a class="maf_list" href="#">
+                                                        <p>Blog</p>
+                                                        <span>Work that illustrate amazing experiences we design & deliver</span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="mt-4" href="#">
+                                                        <div class="portfolio_box" style="background-image: url(assets/img/menu_item_1.jpg);">
+                                                            <span>Featured Case study</span>
+                                                            <div class="portfolio_overlay">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="mt-4" href="#">
+                                                        <div class="portfolio_box" style="background-image: url(assets/img/menu_item_2.jpg);">
+                                                            <span>Featured Case study</span>
+                                                            <div class="portfolio_overlay">
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                <div id="mobile_menu">
+                                    <a href='#menu'>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="header_btn">
+                                <a href="#" class="btn v1">Get started</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
         <!-- Header bar area End -->
         <!-- Ofcanvas-menu -->
-        <div class="ofcavas-menu">
-            <ul id="mainNav" class="navbar-nav ml-auto pb-2 pb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#features_wrap">FEATURES</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#testimonial_wrap">TESTIMONIALS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#stat_wrap">KEY STATISTICS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#preass_wrap">PRESS</a></li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#partner_wrap">PARTNERS & INVESTORS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#team_wrap">TEAM</a></li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#contact_wrap"> CONTACT US </a>
-                </li>
-                <li>
-                    <a href="#" class="btn v1"><img src="assets/img/icon-android.png" alt="Image"></a>
-                </li>
-            </ul>
-        </div>
         <!-- Ofcanvas-menu END-->
-        
-      
-        
+        <!-- Event Section start -->
+        <section class="event-wrap">
+            <div class="container">
+                <div class="filter-wrap">
+                    <div class="filter-title">
+                        <span>WAS IN MUSTERSTADT ANSTEHT</span>
+                        <h2>Eventkalender</h2>
+                    </div>
+                    <div class="filter-tab">
+                        <div class="tab-container">
+                            <div class="tab-menu">
+                                <ul>
+                                    <li><a href="#" class="tab-a active-a" data-id="tab1"> <img src="assets/img/bar.svg" alt="Image"></a></li>
+                                    <li><a href="#" class="tab-a" data-id="tab2"><img src="assets/img/calendar.svg" alt="Image"></a></li>
+                                    <li><a href="#" class="tab-a" data-id="tab3"><img src="assets/img/settings.svg" alt="Image">
+                                            Vergangene</a></a></li>
+                                    <li><a href="#" class="tab-a" data-id="tab4"><img src="assets/img/reload.svg" alt="Image">
+                                            Kategorien</a></a></li>
+                                </ul>
+                            </div>
+                            <div class="tab tab-active" data-id="tab1">
+                                <div class="event-list-wrap v1">
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-1.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-2.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-3.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-4.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-5.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-6.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-7.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-8.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-9.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="event-item">
+                                        <div class="event-img">
+                                            <img src="assets/img/img-10.jpg" alt="Image">
+                                        </div>
+                                        <div class="event-info">
+                                            <h6 class="date">20.06.2020 – 20:00 Uhr</h6>
+                                            <h4>Veranstaltungstitel</h4>
+                                            <a href="#" class="event-tag">Veranstaltungsort</a>
+                                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                            <a href="#" class="link">Zum Event <i class="las la-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab " data-id="tab2">
+                                <!-- partial:index.partial.html -->
+                                <div id="datepicker"></div>
+                                <!-- partial -->
+                            </div>
+                            <div class="tab " data-id="tab3">
+                                three
+                            </div>
+                            <div class="tab " data-id="tab4">
+                                four
+                            </div>
+                        </div>
+                        <!--  <ul class="nav nav-tabs list-details-tab">
+                            <li class="nav-item active">
+                                <a data-toggle="tab" href="#tab_1">
+                                    <img src="assets/img/bar.svg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a data-toggle="tab" href="#tab_2">
+                                    <img src="assets/img/calendar.svg" alt="Image">
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-toggle="tab" href="#tab_3">
+                                    <img src="assets/img/settings.svg" alt="Image">
+                                    Kategorien</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-toggle="tab" href="#tab_4">
+                                    <img src="assets/img/settings.svg" alt="Image">
+                                    Vergangene
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-toggle="tab" href="#tab_5"></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Event Section end -->
+        <!-- Footer start -->
+        <footer class="footer-wrap">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="footer-widget-wrap">
+                        <div class="footer-widget">
+                            <p>Stadt Musterstadt <br>
+                                Muster Street 8 <br>
+                                12345 Musterstadt</p>
+                        </div>
+                        <div class="footer-widget">
+                            <ul class="footer-menu">
+                                <li><a href="#"><img src="assets/img/arrow-1.svg" alt="Image">Stadt Muster, Rathaus & Familie</a></li>
+                                <li><a href="#"><img src="assets/img/arrow-1.svg" alt="Image"> Wirtschaft, Bauen & Umwelt</a></li>
+                                <li><a href="#"><img src="assets/img/arrow-1.svg" alt="Image"> Freizeit, Kultur & Tourismus</a></li>
+                                <li><a href="#"><img src="assets/img/arrow-1.svg" alt="Image"></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <ul class="social-lik">
+                                <li><a href="#"><i class="lab la-facebook-f"></i>Facebook</a></li>
+                                <li><a href="#"><i class="lab la-twitter"></i>Twitter</a></li>
+                                <li><a href="#"><i class="lab la-instagram"></i>Instagram</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-widget">
+                            <form class="newsletter-form">
+                                <label for="nl_form">Newsletter abonnieren</label>
+                                <div class="form-group">
+                                    <input type="email" placeholder="E-Mail Adresse">
+                                    button
+                                </div>
+                                <div class="form-group">
+                                    <input type="checkbox" id="check_1">
+                                    <label for="check_1"><a href="#">Datenschutzbestimmungen</a> akzeptieren.</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <ul>
+                        <li><a href="#">Downloads </a></li>
+                        <li><a href="#"> Datenschutz </a></li>
+                        <li><a href="#"> Impressum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer end -->
     </div>
     <!--====== BACK TO TOP START ======-->
-    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+    <a href="#" class="back-to-top"><i class="las la-arrow-up"></i></a>
     <!--====== BACK TO TOP ENDS ======-->
     <!--====== jquery js ======-->
     <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src='https://code.jquery.com/ui/1.9.1/jquery-ui.js'></script>
     <!--====== Popper js ======-->
-    <script src="assets/js/Popper.js"></script>
+    <script src="assets/js/calendar.js"></script>
     <!--====== Bootstrap js ======-->
     <script src="assets/js/bootstrap.min.js"></script>
     <!--====== Jquery easing js ======-->
