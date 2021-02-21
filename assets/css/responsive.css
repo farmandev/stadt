@@ -1,6 +1,11 @@
 /* LG Device :992px. */
 
-@media only screen and (min-width: 1600px) {}
+@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
 
 @media only screen and (min-width: 1200px) {}
 
@@ -17,21 +22,52 @@
 
     .main_menu>ul {
         /*position: relative;*/
-        text-align: right;
+        text-align: left;
     }
 
     .main_menu>ul>li {
         display: inline-block;
-        margin: 0 25px;
+        margin: 0 55px 0 0;
+    }
+
+    .main_menu>ul>li:last-child {
+        margin-right: 0;
     }
 
     .main_menu>ul>li>a {
         position: relative;
-        font-size: 16px;
-        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: capitalize;
     }
 
-    .main_menu>ul>li>a.has_child:after {
+    .main_menu>ul>li>a:after {
+        position: absolute;
+        bottom: -1px;
+        left: -6px;
+        content: "";
+        width: 9px;
+        height: 9px;
+        border-left: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+
+    /**/
+    .tabs-panel {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.tabs li {
+  border-top: 1px solid #ddd;
+}
+.tabs li a {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/**/
+    /* .main_menu>ul>li>a.has_child:after {
         position: absolute;
         bottom: -31px;
         left: 42%;
@@ -47,9 +83,9 @@
         visibility: hidden;
         opacity: 0;
         transition: 0.5s;
-    }
+    }*/
 
-    .main_menu>ul>li>a.has_child:before {
+    /*  .main_menu>ul>li>a.has_child:before {
         position: absolute;
         top: 50%;
         right: -18px;
@@ -57,7 +93,7 @@
         content: "\f3d0";
         font-family: "Ionicons";
         font-size: 14px;
-    }
+    }*/
 
     .dropdown {
         position: fixed;
@@ -68,12 +104,23 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-        padding: 40px 80px 40px;
-        border: 1px solid #CFD0DB;
+        padding: 40px 15px 40px;
         visibility: hidden;
         opacity: 0;
         transition: 0.4s;
         margin: 0 auto;
+        max-width: 1170px;
+    }
+
+    .dropdown:before {
+        position: absolute;
+        top: 0;
+        left: -20vw;
+        content: "";
+        background: #F1EEE8;
+        width: 100vw;
+        height: 100%;
+        z-index: -1;
     }
 
     .main_menu>ul>li:hover .dropdown {
@@ -143,12 +190,13 @@
         font-weight: 300;
     }
 
-    .dropdown>li>a {
-        font-size: 18px !important;
-        font-weight: 500;
+    .dropdown>li>a.submenu-title {
+        font-size: 13px;
         color: #12222A;
+        line-height: 33px;
+        font-family: "HelVetica SemiBold";
         margin: 0 0 25px;
-        display: block;
+        text-transform: uppercase;
     }
 
     .dropdown li a {
