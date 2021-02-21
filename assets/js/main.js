@@ -40,6 +40,10 @@
         $('.hero-option').removeClass('open')
         $('.more-info-btn').removeClass('d-none')
     });
+     //Select Tag
+    $('.filter-taglist ul li span').on('click', function() {
+        $(this).toggleClass('selected');
+    })
 
     /* ----------------------------------------
            Responsive Mega Menu

@@ -1,13 +1,77 @@
 /* LG Device :992px. */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px) {}
+
 @media only screen and (min-width: 1200px) {
     .container {
         width: 1170px;
     }
 }
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 950px;
+    }
+
+   
+
+    .footer-widget:nth-child(3) {
+        width: 20%;
+    }
+
+    .footer-widget:nth-child(4) {
+        width: 30%;
+    }
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 720px;
+    }
+
+    .footer-widget p,
+    .footer-menu li a,
+    .social-lik li a,
+    .newsletter-form label {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .tab-two-content-left,
+    .tab-two-content-right {
+        width: 100%;
+    }
+
+    .ui-datepicker-prev::after,
+    .ui-datepicker-next::after {
+        display: none;
+    }
+
+    .tab-two-content-right {
+        order: 1;
+        margin: 0 0 20px;
+    }
+
+    .event-list-wrap.v1 .event-item {
+        width: 100%;
+    }
+
+    .tab-two-content-left {
+        order: 2;
+    }
+}
 
 @media only screen and (min-width: 992px) {
     .main-menu {
@@ -54,19 +118,21 @@
 
     /**/
     .tabs-panel {
-  margin: 0;
-  padding: 0;
-  border: none;
-}
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
 
-.tabs li {
-  border-top: 1px solid #ddd;
-}
-.tabs li a {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-/**/
+    .tabs li {
+        border-top: 1px solid #ddd;
+    }
+
+    .tabs li a {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    /**/
     /* .main_menu>ul>li>a.has_child:after {
         position: absolute;
         bottom: -31px;
@@ -228,6 +294,9 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
+     .page_wrapper {
+        overflow-x: hidden !important;
+    }
     .main-menu .nav-item .nav-link {
 
         font-size: 11px;
@@ -261,6 +330,16 @@
 
     .xs-block {
         display: block;
+    }
+
+    .event-info {
+        width: 100%;
+        margin: 0;
+    }
+
+    .event-img {
+        margin: 0 0 15px;
+        width: 100%;
     }
 
 

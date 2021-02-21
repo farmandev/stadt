@@ -1,14 +1,14 @@
 var events = [
-    { Title: "Breakfast with Mom", Date: new Date("11/13/2012") },
-    { Title: "Rachel's Birthday", Date: new Date("11/25/2012") },
-    { Title: "Meeting with Client", Date: new Date("12/02/2012") }
+    { Title: "Event One", Date: new Date("03/13/2021") },
+    { Title: "Event Two", Date: new Date("03/25/2021") },
+    { Title: "Event Three", Date: new Date("03/02/2021") }
 ];  
 
 
 $('#datepicker').datepicker({  
       inline: true,  
        showOtherMonths: true,  
-      dayNamesMin: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
+      dayNamesMin: ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'],
       beforeShowDay: function(date) {
           var result = [true, '', null];
           var matching = $.grep(events,     function(event) {
@@ -39,4 +39,3 @@ $('#datepicker').datepicker({
         }
     }  
  });  
-/*The part of the script that attaches events to dates is borrowed from: http://jsfiddle.net/Zrz9t/1151/   */
