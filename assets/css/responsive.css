@@ -13,7 +13,7 @@
         width: 950px;
     }
 
-   
+
 
     .footer-widget:nth-child(3) {
         width: 20%;
@@ -132,6 +132,69 @@
         padding-bottom: 2rem;
     }
 
+    /*------Menu Desktop  -----*/
+
+    .dropdown li.has-child {
+        display: block;
+    }
+
+    .dropdown {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    li.has-Child ul.has_dropdown {
+        position: absolute;
+        top: 74px;
+        left: 30%;
+    }
+
+    .has_dropdown {
+        display: none;
+    }
+
+    .has_dropdown.open {
+        display: block;
+    }
+
+    .has-Child .dropdown-title {
+        font-size: 12px;
+        line-height: 33px;
+        font-family: var(--font_md);
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+        margin-left: 17px;
+    }
+
+    .submenu-title {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        font-family: var(--font_rg) !important;
+        text-transform: capitalize !important;
+    }
+
+    .has-Child a.submenu-title {
+        padding: 7px 18px;
+        position: relative;
+    }
+    .has-Child.open a.submenu-title {
+        background: #93CCDD;
+        padding: 7px 18px;
+        border-radius: 5px;
+    }
+
+    .has-Child a.submenu-title img {
+        position: absolute;
+        top: -23px;
+        right: 18px;
+        min-width: 20px;
+        display: none;
+    }
+
+    .has-Child.open a.submenu-title img {
+        display: inline-block;
+    }
+
     /**/
     /* .main_menu>ul>li>a.has_child:after {
         position: absolute;
@@ -171,8 +234,8 @@
         justify-content: space-between;
         flex-wrap: wrap;
         padding: 40px 15px 40px;
-        visibility: hidden;
-        opacity: 0;
+        visibility: visible;
+        opacity: 1;
         transition: 0.4s;
         margin: 0 auto;
         max-width: 1170px;
@@ -261,7 +324,7 @@
         color: #12222A;
         line-height: 33px;
         font-family: "HelVetica SemiBold";
-        margin: 0 0 25px;
+        margin: 0 0 10px;
         text-transform: uppercase;
     }
 
@@ -294,9 +357,10 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-     .page_wrapper {
+    .page_wrapper {
         overflow-x: hidden !important;
     }
+
     .main-menu .nav-item .nav-link {
 
         font-size: 11px;

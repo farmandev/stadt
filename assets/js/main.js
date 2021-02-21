@@ -44,7 +44,13 @@
     $('.filter-taglist ul li span').on('click', function() {
         $(this).toggleClass('selected');
     })
-
+//Select Tag
+    $('.has-Child').on('click', function() {
+        $(this).addClass('open');
+        $(this).siblings('.has-Child').removeClass('open');
+        $(this).find('.has_dropdown').addClass('open');
+        $(this).siblings('.has-Child').find('.has_dropdown').removeClass('open');
+    })
     /* ----------------------------------------
            Responsive Mega Menu
      ------------------------------------------*/
