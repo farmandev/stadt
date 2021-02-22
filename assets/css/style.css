@@ -592,14 +592,14 @@ a:hover {
 }
 
 .main-menu-wrap {
-    width: calc(100% - 80px);
+    width: 30px;
 }
 
 
 
 #mobile_menu {
-    background: #165DA6;
-    padding: 7px 10px;
+    /*! background: #165DA6; */
+    padding: 0;
 }
 
 #mobile_menu a {
@@ -608,14 +608,15 @@ a:hover {
 
 #mobile_menu a span {
     display: block;
-    width: 18px;
-    height: 2px;
-    background: #fff;
-    margin: 5px auto;
+    width: 20px;
+    height: 3px;
+    background: #000;
+    margin: 4px auto;
+    border-radius: 10px;
 }
 
 #mobile_menu a span:nth-child(2) {
-    width: 22px;
+    /*! width: 22px; */
 }
 
 .mm-panel,
@@ -713,12 +714,7 @@ li.has-Child ul.has_dropdown {
     top: 74px;
     left: 30%;
 }
-.has_dropdown {
-    display: none;
-}
-.has_dropdown.open{
-    display: block;
-}
+
 /*---------------------------------
         Hero CSS
 --------------------------------*/
