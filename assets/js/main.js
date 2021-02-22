@@ -80,6 +80,16 @@
         smartSpeed: 1500,
         margin: 0
     });
+     // Hero slider
+    $(".event-slider").owlCarousel({
+        loop: true,
+        items: 5,
+        nav: true,
+        navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        dot: true,
+        smartSpeed: 1500,
+        margin: 0
+    });
 
 
 
