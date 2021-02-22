@@ -97,6 +97,17 @@
     .tab-two-content-left {
         order: 2;
     }
+
+    .tab-menu ul li a.v2 span {
+        display: none;
+    }
+
+    .tab-menu ul li a.v2 {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -448,6 +459,23 @@
         width: 100%;
     }
 
+    .footer-widget {
+        width: 100% !important;
+        margin: 0 0 30px;
+    }
 
+    .filter-title {
+        width: 100%;
+    }
+
+    .filter-title h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin: 0 0 30px;
+    }
+
+    .tab-menu ul li {
+        margin: 0 5px;
+    }
 
 }
