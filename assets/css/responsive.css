@@ -1,6 +1,16 @@
 /* LG Device :992px. */
 
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1920px) {}
+
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {}
+
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {}
+
+@media only screen and (min-width: 1200px) and (max-width: 1359px) {}
 
 @media only screen and (min-width: 1200px) {
     .container {
@@ -111,9 +121,10 @@
 }
 
 @media only screen and (min-width: 992px) {
-    .w-50{
+    .w-50 {
         width: 50%;
     }
+
     .home-icon span {
         display: none;
     }
