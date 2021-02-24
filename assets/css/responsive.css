@@ -1,16 +1,68 @@
 /* LG Device :992px. */
 
-@media only screen and (min-width: 1920px) {}
+@media only screen and (min-width: 1920px) {
+    .header-shape {
+        top: -108px;
+    }
 
-@media only screen and (min-width: 1600px) and (max-width: 1919px) {}
+    .hero-bottom-shape {
 
-@media only screen and (min-width: 1440px) and (max-width: 1599px) {}
+        height: 274px;
+    }
+}
 
-@media only screen and (min-width: 1360px) and (max-width: 1439px) {}
+@media only screen and (min-width: 1600px) and (max-width: 1919px) {
+    .header-shape {
+        top: -77px;
+    }
 
-@media only screen and (min-width: 1200px) and (max-width: 1439px) {}
+    .hero-slider-item {
+        height: calc(114vh - 70px);
+    }
+}
 
-@media only screen and (min-width: 1200px) and (max-width: 1359px) {}
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+    .header-shape {
+        top: -57px;
+    }
+
+    .hero-slider-item {
+        height: calc(124.5vh - 70px);
+    }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1439px) {
+    .header-shape {
+        top: -57px;
+    }
+
+    .hero-slider-item {
+        height: calc(135vh - 70px);
+    }
+
+    .hero-slider_v1 .owl-prev {
+        left: 30px;
+    }
+
+    .hero-slider_v1 .owl-next {
+        right: 100px;
+    }
+     .dropdown:before {
+        width: 114vw!important;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .header-shape {
+        top: -57px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1359px) {
+    .header-shape {
+        top: -49px;
+    }
+}
 
 @media only screen and (min-width: 1200px) {
     .container {

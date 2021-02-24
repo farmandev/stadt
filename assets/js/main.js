@@ -71,7 +71,16 @@
     });
 
     // Hero slider
-    $(".hero-slider").owlCarousel({
+    $(".hero-slider_v1").owlCarousel({
+        loop: true,
+        items: 1,
+        nav: true,
+        navText: [' <img class="img-fluid" src="assets/img/left-arrow-5.svg">', ' <img class="img-fluid" src="assets/img/right-arrow-5.svg">'],
+        dot: true,
+        smartSpeed: 1500,
+        margin: 0
+    });
+     $(".hero-slider_v2").owlCarousel({
         loop: true,
         items: 1,
         nav: true,
