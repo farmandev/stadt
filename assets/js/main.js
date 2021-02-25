@@ -84,7 +84,7 @@
         loop: true,
         items: 1,
         nav: true,
-        navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        navText: [' <img class="img-fluid" src="assets/img/left-arrow-6.svg">', ' <img class="img-fluid" src="assets/img/right-arrow-6.svg">'],
         dot: true,
         smartSpeed: 1500,
         margin: 0
