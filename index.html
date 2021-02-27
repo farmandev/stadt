@@ -8,25 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--====== Title ======-->
     <title>Title here</title>
-    <!--====== Google Fonts ======-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
-    <!--====== Bootstrap css ======-->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!--====== Animate css ======-->
-    <link href="assets/css/animate.min.css" rel="stylesheet">
     <!--====== Icon css ======-->
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/line-awesome.min.css" rel="stylesheet">
     <!--====== Owl carousel css ======-->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <!--====== Calendar css ======-->
     <link href="assets/css/calendar.css" rel="stylesheet">
     <!--====== Nice-select css ======-->
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <!--====== Mmenu css ======-->
     <link href="assets/css/jquery-mmenu.css" rel="stylesheet">
+    <!--====== Magnific css ======-->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
     <!--====== Style css ======-->
     <link href="assets/css/style.css" rel="stylesheet">
     <!--====== Responsive css ======-->
@@ -78,8 +74,11 @@
                         <div class="main-menu-wrap">
                             <nav id="menu" class="main_menu">
                                 <ul>
-                                    <li><a class="has_child" href="#">Stadt Muster, Rathaus & Familie</a>
+                                    <li class="dropdown-menu"><a class="has_child" href="#">Stadt Muster, Rathaus & Familie</a>
                                         <ul class="dropdown">
+                                            <div class="dropdown-bot-shape xs-none">
+                                                <img class="img-fluid" src="assets/img/dropdown-bot-shape.png" alt="Image">
+                                            </div>
                                             <li class="has-Child open">
                                                 <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
                                                 <a class="submenu-title" href="#">
@@ -176,201 +175,9 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="has_child" href="#">Wirtschaft, Bauen & Umwelt</a>
-                                        <ul class="dropdown">
-                                            <li class="has-Child open">
-                                                <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
-                                                <a class="submenu-title" href="#">
-                                                    Aktuelles <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                                                <ul class="has_dropdown open">
-                                                    <span>Aktuelles</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Familie, Bildung, Soziales<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Familie, Bildung, Soziales</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Unsere Stadt<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Unsere Stadt</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Rathaus<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Rathaus</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Service<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Service</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li><a href="#">Wirtschaft, Bauen & Umwelt</a>
                                     </li>
-                                    <li><a class="has_child" href="#">Freizeit, Kultur & Tourismus</a>
-                                        <ul class="dropdown">
-                                            <li class="has-Child open">
-                                                <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
-                                                <a class="submenu-title" href="#">
-                                                    Aktuelles <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                                                <ul class="has_dropdown open">
-                                                    <span>Aktuelles</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Familie, Bildung, Soziales<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Familie, Bildung, Soziales</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Unsere Stadt<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Unsere Stadt</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Rathaus<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Rathaus</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Service<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Service</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li><a href="#">Freizeit, Kultur & Tourismus</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -409,7 +216,8 @@
                     <div class="item">
                         <div class="hero-slider-item bg-f" style="background-image: url(assets/img/hero-2.png);">
                             <div class="hero-overlay">
-                                <img class="img-fluid" src="assets/img/hero-overlay-2.svg" alt="Image">
+                                <img class="img-fluid xs-none" src="assets/img/hero-overlay-2.svg" alt="Image">
+                                <img class="img-fluid md-none" src="assets/img/hero-bt_shape_10.svg" alt="Image">
                             </div>
                             <div class="hero-content v2">
                                 <div class="hero_title">
@@ -430,7 +238,8 @@
                     <div class="item">
                         <div class="hero-slider-item bg-f" style="background-image: url(assets/img/hero-slider-1.jpg);">
                             <div class="hero-overlay">
-                                <img class="img-fluid" src="assets/img/hero-overlay-1.svg" alt="Image">
+                                <img class="xs-none img-fluid" src="assets/img/hero-overlay-1.svg" alt="Image">
+                                <img class="img-fluid md-none" src="assets/img/hero-bt_shape_10.svg" alt="Image">
                             </div>
                             <div class="hero-content v1">
                                 <div class="hero_title">
@@ -452,8 +261,17 @@
                 <div class="hero-logo">
                     <img src="assets/img/logo.svg" alt="Image">
                 </div>
-                <div class="video-play">
+                <a href="https://www.youtube.com/watch?v=EFB33r7u4tY" class="video-play">
                     <img src="assets/img/play.svg" alt="Image">
+                </a>
+                <a href="#" class="more-hero-btn">
+                    <img src="assets/img/bottom-arrow.svg" alt="Image">
+                    <span>Mehr erfahren</span>
+                </a>
+                <div class="more-info-btn">
+                    <img src="assets/img/sm-option-1.svg" alt="Image" class="img-fluid sm-opt">
+                    <span><img src="assets/img/plus.png" alt="Image"></span>
+                    Info UND Kontakt
                 </div>
             </div>
         </section>
@@ -464,7 +282,7 @@
             <div class="option-shape-2">
                 <img src="assets/img/option-shape-2.svg" alt="Image">
             </div>
-            <div class="more-info-btn">
+            <div class="more-info-btn xs-none">
                 <span><img src="assets/img/plus.png" alt="Image"></span>
                 Info UND Kontakt
             </div>
@@ -562,9 +380,6 @@
             <div class="about-shape-1">
                 <img src="assets/img/about-shape-1.svg" alt="Image" class="img-fluid">
             </div>
-            <div class="about-shape-2">
-                <img src="assets/img/about-shape-2.svg" alt="Image" class="img-fluid">
-            </div>
             <div class="container">
                 <div class="about-content-wrap d-flex">
                     <div class="about-content w-50">
@@ -587,15 +402,27 @@
         </section>
         <!-- About section ends -->
         <!-- News section start -->
-        <section class="news-wrap bg-f">
+        <section class="news-wrap">
             <div class="fs_shape">
-                <img class="img-fluid" src="assets/img/fs_shape.svg" alt="Image">
+                <img class="img-fluid sm-none" src="assets/img/fs_shape.svg" alt="Image">
             </div>
+            <div class="about-shape-2">
+                <img src="assets/img/about-shape-2.svg" alt="Image" class="img-fluid xs-none">
+                <img class="img-fluid lg-none" src="assets/img/sm-shape-42.png" alt="Image">
+            </div>
+            <div class="news-bt-shape">
+                <img class="img-fluid xs-none" src="assets/img/shape-35.svg" alt="Iamge">
+                <img class="img-fluid lg-none" src="assets/img/shape-45.svg" alt="Iamge">
+            </div>
+         
             <div class="container">
                 <div class="news-box-wrap d-flex align-end">
                     <div class="news-left-wrap">
                         <div class="feature-content mb-50">
-                            <span class="subhead">AKTUELLE THEMEN</span>
+                            <div class="d-flex align-center">
+                                <span class="subhead w-50">AKTUELLE THEMEN</span>
+                                <a href="#" class="link w-50 sm-right">Zum Blog <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                            </div>
                             <h2><span>News</span> <br>
                                 aus Musterstadt</h2>
                         </div>
@@ -614,6 +441,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <span class="lg-none more-wh-info">Woche anzeigen <img src="assets/img/down.svg" alt="Image"> </span>
                             <div class="ev-event-box inf_box">
                                 <div class="ev-event-item d-flex align-end">
                                     <div class="ev-event-item-left">
@@ -674,9 +502,20 @@
                         </div>
                     </div>
                     <div class="news-right-wrap">
-                        <span>20.06.2020</span>
+                        <div class="sm-news-bg lg-none">
+                            <img class="img-fluid" src="assets/img/image-22.jpg" alt="Image">
+                        </div>
+                        <div class="sm-news-overlay lg-none">
+                            <img class="img-fluid" src="assets/img/hero-bt_shape_10.svg" alt="Image">
+                        </div>
+                        <div class="d-flex align-center">
+                            <span class=" w-50">20.06.2020</span>
+                            <a href="#" class="link w-50 lg-none sm-right">Teilen <img src="assets/img/arrow-9.svg" alt="Image"></a>
+                            <!--  <span class="w-50">20.06.2020</span>
+                            <a href="#" class="link v4 w-50 lg-none"> <img src="assets/img/arrow-9.svg" alt="Image"></a> -->
+                        </div>
                         <h3>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim.</h3>
-                        <a href="#" class="link v4">Teilen <img src="assets/img/arrow-9.svg" alt="Image"></a>
+                        <a href="#" class="link v4 xs-none">Teilen <img src="assets/img/arrow-9.svg" alt="Image"></a>
                         <div class="news-item-wrap d-flex">
                             <div class="news-item">
                                 <div class="news-img">
@@ -715,10 +554,11 @@
             <div class="container section-padding">
                 <div class="promo-wrap">
                     <div class="promo-bg-shape">
-                        <img src="assets/img/hexagonal.svg" alt="Image" class="img-fluid">
+                        <img src="assets/img/hexagonal.svg" alt="Image" class="img-fluid xs-none">
+                        <img src="assets/img/shape-39.svg" alt="Image" class="img-fluid lg-none">
                     </div>
                     <div class="promo-bg-shape-2">
-                        <img src="assets/img/promo-shape-10.svg" alt="Image" class="img-fluid">
+                        <img src="assets/img/promo-shape-10.svg" alt="Image" class="img-fluid xs-none">
                     </div>
                     <div class="promo-title">
                         <span class="subhead">MAKING A LONG STORY SHORT</span>
@@ -762,169 +602,117 @@
         <!-- News section end -->
         <!-- Event Section start -->
         <section class="event-wrap v5 section-padding">
-            <img src="assets/img/shape-15.svg" alt="Image" class="shape_15">
+            <!-- <img src="assets/img/shape-15.svg" alt="Image" class="shape_15"> -->
             <div class="container">
                 <div class="filter-wrap">
                     <div class="filter-title">
-                        <span>WAS IN MUSTERSTADT ANSTEHT</span>
+                        <span></span>
+                        <div class="d-flex align-center">
+                            <span class=" w-60 date">WAS IN MUSTERSTADT ANSTEHT</span>
+                            <a href="#" class="link w-40 lg-none sm-right">Zum Kalender <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                        </div>
                         <h2>Eventkalender</h2>
                     </div>
                     <div class="filter-tablist">
-                        <a href="#" class="link">Zum Kalender <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                        <a href="#" class="link xs-none">Zum Kalender <img src="assets/img/arrow-2.svg" alt="Image"></a>
                     </div>
                 </div>
                 <div class="event-slider owl-carousel">
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="event-item v3">
                             <div class="event-info  w-100">
-                                <span class="date">20.06.2020</span>
+                                <div class="d-flex align-center">
+                                    <span class="w-50 date">20.06.2020</span>
+                                    <a href="#" class="link w-50 lg-none sm-right">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                </div>
                                 <h4>Veranstaltungstitel</h4>
                                 <span class="date ml-10">Veranstaltungsort</span>
                                 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="event-item v3">
-                            <div class="event-info">
-                                <span class="date">20.06.2020</span>
-                                <h4>Veranstaltungstitel</h4>
-                                <span class="date ml-10">Veranstaltungsort</span>
-                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
-                                <a href="#" class="link">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                                <a href="#" class="link xs-none">Zum Event <img src="assets/img/arrow-2.svg" alt="Image"></a>
                             </div>
                         </div>
                     </div>
@@ -933,13 +721,17 @@
         </section>
         <!-- Event Section end -->
         <!-- Feature section start -->
-        <section class="feature-item bg-f" style="background-image: url(assets/img/feature-1.png);">
+        <section class="feature-item">
             <div class="ft_ol">
                 <img src="assets/img/feature-overlay-1.svg" alt="Image" class="img-fluid xs-none">
                 <img src="assets/img/shape-140.png" alt="Image" class="img-fluid md-none">
             </div>
             <div class="ft_top_shape">
-                <img src="assets/img/feature-top-shape.svg" alt="Image" class="img-fluid">
+                <img src="assets/img/feature-top-shape.svg" alt="Image" class="img-fluid xs-none">
+                <img src="assets/img/sm-shape-10.svg" alt="Image" class="img-fluid md-none">
+            </div>
+            <div class="sm-feature-img md-none">
+                <img src="assets/img/image-10.jpg" alt="Image">
             </div>
             <div class="container">
                 <div class="feature-content">
@@ -1107,16 +899,16 @@
     <script src='assets/js/jquery_uI.js'></script>
     <!--====== Popper js ======-->
     <script src="assets/js/calendar.js"></script>
-    <!--====== Bootstrap js ======-->
-    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
-    <!--====== Jquery easing js ======-->
-    <script src="assets/js/jquery.easing.min.js"></script>
     <!--====== Owl carousel js ======-->
     <script src="assets/js/owl.carousel.js"></script>
     <!--======Nice-select js ======-->
     <script src="assets/js/jquery-nice-select.js"></script>
     <!--====== Mmenu js ======-->
     <script src="assets/js/jquery-mmneu.js"></script>
+    <!--====== Magnific js ======-->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!--====== Ajax Load More js ======-->
+    <script src="assets/js/ajax-load-more.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
 </body>

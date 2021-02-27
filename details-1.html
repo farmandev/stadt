@@ -8,25 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--====== Title ======-->
     <title>Title here</title>
-    <!--====== Google Fonts ======-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png">
-    <!--====== Bootstrap css ======-->
-    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet"> -->
-    <!--====== Animate css ======-->
-    <link href="assets/css/animate.min.css" rel="stylesheet">
     <!--====== Icon css ======-->
     <link href="assets/css/all.min.css" rel="stylesheet">
     <link href="assets/css/line-awesome.min.css" rel="stylesheet">
     <!--====== Owl carousel css ======-->
     <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <!--====== Calendar css ======-->
     <link href="assets/css/calendar.css" rel="stylesheet">
     <!--====== Nice-select css ======-->
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <!--====== Mmenu css ======-->
     <link href="assets/css/jquery-mmenu.css" rel="stylesheet">
+    <!--====== Magnific css ======-->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
     <!--====== Style css ======-->
     <link href="assets/css/style.css" rel="stylesheet">
     <!--====== Responsive css ======-->
@@ -62,7 +58,10 @@
     <div class="page_wrapper">
         <!-- Header bar area Start -->
         <header class="header-bar-area">
-            <div class="top-shape"></div>
+            <!-- <div class="top-shape"></div> -->
+            <div class="header-shape">
+                <img src="assets/img/header-shape.svg" alt="Image">
+            </div>
             <div class="container">
                 <div class="header-wrap">
                     <div class="header-left">
@@ -75,8 +74,11 @@
                         <div class="main-menu-wrap">
                             <nav id="menu" class="main_menu">
                                 <ul>
-                                    <li><a class="has_child" href="#">Stadt Muster, Rathaus & Familie</a>
+                                    <li class="dropdown-menu"><a class="has_child" href="#">Stadt Muster, Rathaus & Familie</a>
                                         <ul class="dropdown">
+                                            <div class="dropdown-bot-shape xs-none">
+                                                <img class="img-fluid" src="assets/img/dropdown-bot-shape.png" alt="Image">
+                                            </div>
                                             <li class="has-Child open">
                                                 <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
                                                 <a class="submenu-title" href="#">
@@ -173,201 +175,9 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a class="has_child" href="#">Wirtschaft, Bauen & Umwelt</a>
-                                        <ul class="dropdown">
-                                            <li class="has-Child open">
-                                                <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
-                                                <a class="submenu-title" href="#">
-                                                    Aktuelles <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                                                <ul class="has_dropdown open">
-                                                    <span>Aktuelles</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Familie, Bildung, Soziales<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Familie, Bildung, Soziales</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Unsere Stadt<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Unsere Stadt</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Rathaus<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Rathaus</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Service<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Service</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li><a href="#">Wirtschaft, Bauen & Umwelt</a>
                                     </li>
-                                    <li><a class="has_child" href="#">Freizeit, Kultur & Tourismus</a>
-                                        <ul class="dropdown">
-                                            <li class="has-Child open">
-                                                <p class="dropdown-title">Stadt MUSTER, Rathaus & Familie</p>
-                                                <a class="submenu-title" href="#">
-                                                    Aktuelles <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                                                <ul class="has_dropdown open">
-                                                    <span>Aktuelles</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Familie, Bildung, Soziales<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Familie, Bildung, Soziales</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Unsere Stadt<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Unsere Stadt</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Rathaus<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Rathaus</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="has-Child">
-                                                <a class="submenu-title" href="#">
-                                                    Service<img src="assets/img/arrow-2.svg" alt="Image">
-                                                </a>
-                                                <ul class="has_dropdown">
-                                                    <span>Service</span>
-                                                    <li><a href="#">Veranstaltungskalender
-                                                    <li><a href="#">Müllkalender</a></li>
-                                                    <li><a href="#">Baustellen</a></li>
-                                                    <li><a href="#">Schadensmelder</a></li>
-                                                    <li><a href="#">Jobs & Ausbildung</a></li>
-                                                    <li><a href="#">Ausschreibungen</a></li>
-                                                    <li><a href="#">Pressemitteilungen</a></li>
-                                                    <li><a href="#">Infos Covid 19
-                                                        </a></li>
-                                                    <li><a href="#">Amtsblatt</a></li>
-                                                    <li><a href="#">Notrufnummern</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <li><a href="#">Freizeit, Kultur & Tourismus</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -399,7 +209,7 @@
         </header>
         <!-- Header bar area End -->
         <!-- Hero section starts -->
-        <section class="hero-wrap">
+        <section class="hero-wrap pb-0">
             <div class="hero-content-area bg-f" style="background-image: url(assets/img/hero-2.jpg);">
                 <div class="hero-content-wrap">
                     <span>Kleinkunst/Comedy/Kabarett</span>
@@ -409,8 +219,14 @@
             </div>
             <div class="ed-top-shape"></div>
         </section>
-        <div class="hero-option">
-            <div class="more-info-btn">
+        <div class="hero-option ">
+            <div class="option-shape-1">
+                <img src="assets/img/option-shape-3.svg" alt="Image">
+            </div>
+            <div class="option-shape-2">
+                <img src="assets/img/option-shape-2.svg" alt="Image">
+            </div>
+            <div class="more-info-btn xs-none">
                 <span><img src="assets/img/plus.png" alt="Image"></span>
                 Info UND Kontakt
             </div>
@@ -506,9 +322,13 @@
         <!-- Event details section start -->
         <section class="event-details-wrap">
             <div class="shape-100">
-                <img class="" src="assets/img/shape-100.svg" alt="Image">
+                <img class="img-fluid xs-none" src="assets/img/shape-100.svg" alt="Image">
+                <img class="img-fluid lg-none" src="assets/img/shape-201.svg" alt="image">
             </div>
-            
+            <div class="shape-101">
+                <img class="img-fluid xs-none" src="assets/img/shape-101.svg" alt="Image">
+                <img class="img-fluid lg-none" src="assets/img/shape-101.svg" alt="Image">
+            </div>
             <!-- <div class="ed-top-shape"></div> -->
             <!-- <div class="ed-bottom-shape"></div> -->
             <div class="d-flex align-center">
@@ -517,7 +337,7 @@
                         <h6>DATUM</h6>
                         <p>20.06.2020 <br>
                             19:00 Uhr</p>
-                        <a href="#" class="link">Zum Kalender hinzufügen → <img src="assets/img/arrow-2.svg" alt="Image"></a>
+                        <a href="#" class="link">Zum Kalender hinzufügen <img src="assets/img/arrow-2.svg" alt="Image"></a>
                     </div>
                     <div class="ed_details-item">
                         <h6>ORT</h6>
@@ -532,35 +352,34 @@
                         <p>Einhaltung der aktuellen Hygiene- bestimmungen wir vorausgesetzt</p>
                         <a href="#" class="link">Ressourcen des RKI <img src="assets/img/arrow-2.svg" alt="Image"></a>
                     </div>
-                   
                 </div>
             </div>
         </section>
         <!-- Event details section end -->
         <!-- Event brief start -->
-        <section class="ev-brief-wrap">
-            <div class="shape-101">
-                <img class="" src="assets/img/shape-101.svg" alt="Image">
-            </div>
+        <section class="ev-brief-wrap section-padding">
             <div class="container">
                 <div class="ev-brief-title">
                     <span class="subhead">Kleinkunst/Comedy/Kabarett</span>
-                    <h2>STORNO: Sonderinventur <br>2020</h2>
+                    <h2>STORNO: Sonderinventur 2020</h2>
                 </div>
                 <div class="ev-brief bg_bs">
-                    <p><span>COVID-19-Warnung:</span> 
+                    <p><span>COVID-19-Warnung:</span>
                         Der geplante Auftritt von Storno kann Corona-bedingt leider nicht am Donnerstag, 1. Oktober 2020, stattfinden. Stattdessen gibt es zwei Ersatztermine:</p>
+                    <span class="mre-text-btn lg-none">Anzeigen <img src="assets/img/down.svg" alt="Iamge"></span>
+                    <div class="more-text">
                         <p>Die Kartenbesitzer*innen sehen anhand der auf ihrem Ticket aufgedruckten Reihen-Nummer, für welche Veranstaltung ihr Ticket nun gültig ist:</p>
                         <p>Samstag, 21.11.2020 um 20 Uhr: für alle Gäste mit Karten für die Reihen 1 bis 8 <br>
-                      Sonntag, 22.11.2020 um 19 Uhr: für alle Gäste mit Karten ab Reihe 9</p>
+                            Sonntag, 22.11.2020 um 19 Uhr: für alle Gäste mit Karten ab Reihe 9</p>
                         <p>Die Kulturbüros der Städte Testdorf und Musterstadt haben sich wegen der besonderen Abstandsregeln darüber verständigt, die übliche Kapazität der Halle nur zu etwa einem Drittel auszulasten. Außerdem werden Daten zur Rückverfolgung von den Gästen erhoben. Das Tragen eines Mund-Nasen-Schutzes bis zum Platz ist verpflichtend. Während des Auftrittes kann der Schutz abgenommen werden.</p>
+                    </div>
                 </div>
                 <div class="ev-para-wrap d-flex section-padding_2">
                     <div class="ev-para-left">
                         <span class="subhead">PROGRAMM</span>
                         <p class="subpara">Ihre furiosen Auftritte begeistern das Publikum so sehr, das es sich regelmäßig kaum auf den Stühlen halten kann – vor Lachen. Deshalb freut sich das Musterstetter Kulturbüro in Kooperation mit dem Kulturbüro Testdorf darüber, das Testinger STORNO-Trio für einen Auftritt mit dem neuen Sonderinventur-Programm zu gewinnen: Die „Sonderinventur 2020“ findet wegen der geplanten Modernisierung der Musterstetter Stadthalle in der Stadthalle Testdorf, Raffplatz 1, statt.</p>
                         <p>Mehr als 60.000 Besucher pro Saison können sich nicht irren: Mit ihren STORNO-Jahresrückblicken zeigen Harald Funke, Thomas Philipzen und Jochen Rüther seit inzwischen 15 Jahren, wie man krisengeschüttelte Zeiten mit donnerndem Gelächter übersteht. Ihr hochprozentiger Cocktail aus intelligenter Analyse mit einmalig komischem Zusammenspiel und beeindruckender Musikalität bietet satirische Unterhaltung in hochkonzentrierter Form und lässt STORNO eine Sonderstellung auf deutschen Kabarettbühnen einnehmen.</p>
-                           <p> In ihrer neuen Sonderinventur-Spezialmischung 2020 aus Aktuellem und Bewährtem wollen sie wieder die Lachtränen zum Fließen bringen und dabei genüsslich den Finger in politische und sonstige Wunden legen. Für Einsteiger die ideale Möglichkeit, das Trio in hochkonzentrierter Form zu erleben und für eingefleischte Fans ohnehin ein Muss …</p>
+                        <p> In ihrer neuen Sonderinventur-Spezialmischung 2020 aus Aktuellem und Bewährtem wollen sie wieder die Lachtränen zum Fließen bringen und dabei genüsslich den Finger in politische und sonstige Wunden legen. Für Einsteiger die ideale Möglichkeit, das Trio in hochkonzentrierter Form zu erleben und für eingefleischte Fans ohnehin ein Muss …</p>
                     </div>
                     <div class="ev-para-right">
                         <span class="subhead">TICKETS</span>
@@ -577,6 +396,10 @@
         <!-- Event brief end -->
         <!-- Event Section start -->
         <section class="event-wrap bg_bs section-padding_2">
+            <div class="ev_shape">
+                <img class="img-fluid xs-none" src="assets/img/ev_shape.svg" alt="image">
+                <img class="img-fluid lg-none" src="assets/img/shape-203.svg" alt="image">
+            </div>
             <div class="container">
                 <div class="filter-wrap">
                     <div class="filter-title">
@@ -637,57 +460,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="add-more-btn">
-                    <a href="#" class="btn v6"><img src="assets/img/plus-2.svg" alt="Image"> Mehr laden</a>
+                <div class="event-list-wrap v1">
+                    <a href="javascript:void(0)" class="btn v6 load-more"><img src="assets/img/plus-2.svg" alt="Image">
+                        <span class="default-msg">Mehr laden</span>
+                        <span class="loading-msg">Loading...</span>
+                    </a>
                 </div>
             </div>
         </section>
         <!-- Event Section end -->
-        <!-- Event manager contact start -->
-        <div class="ev_mg_wrap">
-            <div class="container">
-                <div class="filter-wrap">
-                    <div class="filter-title w-100">
-                        <span>KONTAKT</span>
-                        <h2>Das Team der <br>
-                            Stadtbücherei Muster</h2>
-                        <p>Wir freuen uns auf Ihren Besuch!</p>
-                    </div>
-                </div>
-                <div class="ev_mg-desc">
-                    <div class="single_ev_mg">
-                        <div class="ev_mg_img">
-                            <img src="assets/img/manager-1.jpg" alt="Image">
-                        </div>
-                        <div class="ev_mg_info">
-                            <h5>Tim Tester
-                            </h5>
-                            <span>Fachdienstleiter</span>
-                            <a href="tel:4901234 56789">+49 (0)1234 56789</a>
-                            <a href="mailto:tim.tester@musterstadt.de">tim.tester@musterstadt.de</a>
-                            <a href="#" class="link">Zum Kontakten hinzufügen <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                        </div>
-                    </div>
-                    <div class="single_ev_mg">
-                        <div class="ev_mg_img">
-                            <img src="assets/img/manager-3.jpg" alt="Image">
-                        </div>
-                        <div class="ev_mg_info">
-                            <h5>Manuela Mustermann
-                            </h5>
-                            <span>Leiterin der Abteilung</span>
-                            <a href="tel:4901234 56789">+49 (0)1234 56789</a>
-                            <a href="mailto:manuela.mustermann@musterstadt.de">manuela.mustermann@musterstadt.de</a>
-                            <a href="#" class="link">Zum Kontakten hinzufügen <img src="assets/img/arrow-2.svg" alt="Image"></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="alert">
-                    <p><img src="assets/img/alert.svg" alt="Image">Die Stadtbücherei gehört zum Fachdienst Bildung/Schule/Sport</p>
-                </div>
-            </div>
-        </div>
-        <!-- Event manager contact end -->
         <!-- Footer start -->
         <footer class="footer-wrap">
             <div class="footer-top">
@@ -748,16 +529,16 @@
     <script src='assets/js/jquery_uI.js'></script>
     <!--====== Popper js ======-->
     <script src="assets/js/calendar.js"></script>
-    <!--====== Bootstrap js ======-->
-    <!-- <script src="assets/js/bootstrap.min.js"></script> -->
-    <!--====== Jquery easing js ======-->
-    <script src="assets/js/jquery.easing.min.js"></script>
     <!--====== Owl carousel js ======-->
     <script src="assets/js/owl.carousel.js"></script>
     <!--======Nice-select js ======-->
     <script src="assets/js/jquery-nice-select.js"></script>
     <!--====== Mmenu js ======-->
     <script src="assets/js/jquery-mmneu.js"></script>
+    <!--====== Magnific js ======-->
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <!--====== Ajax Load More js ======-->
+    <script src="assets/js/ajax-load-more.js"></script>
     <!--====== Main js ======-->
     <script src="assets/js/main.js"></script>
 </body>

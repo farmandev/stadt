@@ -30,21 +30,39 @@
         $(this).addClass('open');
     })
 
+    //Mobile Menu Open
+    $('#mobile_menu').on('click', function() {
+        $('.header-bar-area').toggleClass('open');
+    })
+    //visible Category filter 
+    $('.cat-filter').on('click', function() {
+        $(this).toggleClass('active')
+        $('.filter-taglist').toggleClass('open')
+
+    });
     //Search Box Open
     $('.more-info-btn').on('click', function() {
         $(this).addClass('d-none')
         $('.hero-option').addClass('open')
 
     });
-     $('.close-option').on('click', function() {
+    //Search Box Open
+    $('.more-wh-info').on('click', function() {
+        $('.ev-event-box.inf_box').slideToggle()
+    });
+    $('.mre-text-btn').on('click', function() {
+        $('.more-text').slideToggle()
+    });
+    //Close option Box
+    $('.close-option').on('click', function() {
         $('.hero-option').removeClass('open')
         $('.more-info-btn').removeClass('d-none')
     });
-     //Select Tag
+    //Select Tag
     $('.filter-taglist ul li span').on('click', function() {
         $(this).toggleClass('selected');
     })
-//Select Tag
+    //Select Tag
     $('.has-Child').on('click', function() {
         $(this).addClass('open');
         $(this).siblings('.has-Child').removeClass('open');
@@ -80,7 +98,7 @@
         smartSpeed: 1500,
         margin: 0
     });
-     $(".hero-slider_v2").owlCarousel({
+    $(".hero-slider_v2").owlCarousel({
         loop: true,
         items: 1,
         nav: true,
@@ -89,14 +107,38 @@
         smartSpeed: 1500,
         margin: 0
     });
-     // Hero slider
+    // Hero slider
     $(".event-slider").owlCarousel({
         loop: true,
         items: 5,
         nav: false,
         dot: true,
         smartSpeed: 1500,
-        margin: 0
+        margin: 10,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+
+
+            },
+
+            768: {
+                items: 3,
+
+
+            },
+            992: {
+                items: 3,
+
+
+            },
+            1280: {
+                items: 5,
+
+            }
+
+        }
     });
 
 
@@ -120,6 +162,14 @@
         }, 1500);
     });
 
+    /*-------------------------------------
+                   Magnific Popup js
+           --------------------------------------*/
+    $('.video-play').magnificPopup({
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        preloader: true,
+    });
 
 
 })(jQuery);
